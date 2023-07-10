@@ -5,7 +5,7 @@ a path was included, verify that the path is correct and try again.# See https:/
 /node_modules
 /.pnp
 .pnp.js
-
+.env
 # testing
 /coverage
 
@@ -25,3 +25,4 @@ yarn-debug.log*
 yarn-error.log*
 
 
+.env
