@@ -9,7 +9,6 @@ a path was included, verify that the path is correct and try again.# See https:/
 # testing
 /coverage
 
-.env
 # production
 /build
 
@@ -24,5 +23,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-
-.env
