@@ -12,7 +12,7 @@ a path was included, verify that the path is correct and try again.# See https:/
 # production
 /build
 
-**/.env
+**/*.env
 
 # misc
 .DS_Store
