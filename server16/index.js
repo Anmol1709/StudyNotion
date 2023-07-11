@@ -22,11 +22,9 @@ database.connect();
 app.use(express.json());
 app.use(cookieParser());
 app.use(
-	cors({
-		origin:"https://studynotion-bend.onrender.com/api/v1",
-		credentials:true,
-	})
-)
+	cors()
+);
+app.options("*",cors());
 
 app.use(
 	fileUpload({
