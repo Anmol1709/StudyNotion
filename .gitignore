@@ -18,6 +18,7 @@ a path was included, verify that the path is correct and try again.# See https:/
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 
 npm-debug.log*
 yarn-debug.log*
